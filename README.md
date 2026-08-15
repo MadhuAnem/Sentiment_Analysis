@@ -126,7 +126,7 @@ Clone the repository and set up a clean Python virtual environment:
 
 ```bash
 # Navigate into the project folder
-cd "C:\Madhu\Sentiment Analysis_New"
+cd "C:\Sentiment Analysis_New"
 
 # Create virtual environment
 python -m venv venv

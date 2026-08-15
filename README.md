@@ -239,16 +239,3 @@ Performs top-K semantic similarity search over FAISS indices and summarizes cont
 
 - 📘 **[PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md):** Complete technical manual, architectural design, data contracts, and cloud deployment guide.
 - 📐 **[PROJECT_DESIGN.md](PROJECT_DESIGN.md):** Architecture design document & step-by-step implementation blueprint.
-
----
-
-## 📝 Resume Bullet Points
-
-- **Architected & Implemented a Sentiment-Aware RAG Chatbot** using **LangChain**, **FAISS**, and **Hugging Face Transformers** to analyze news articles with 92%+ classification accuracy.
-- **Engineered an Explainable NLP Engine** leveraging **spaCy**, **NLTK VADER**, and **TextBlob** that extracts sentiment lexicons and dynamically highlights influential text spans.
-- **Built a Production Microservice Architecture** with an asynchronous **FastAPI** backend REST API and an interactive **Streamlit** web dashboard for real-time document search.
-
----
-
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).

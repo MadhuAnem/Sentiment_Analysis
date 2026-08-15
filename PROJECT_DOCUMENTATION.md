@@ -216,7 +216,7 @@ Provides an interactive 3-tab layout:
 
 ### Step 1: Virtual Environment Setup
 ```bash
-cd "C:\Madhu\Sentiment Analysis_New"
+cd "C:\Sentiment Analysis_New"
 python -m venv venv
 # Activate on Windows:
 venv\Scripts\activate

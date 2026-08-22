@@ -101,7 +101,8 @@ with tab3:
     query = st.text_input("Ask a question about your ingested documents:")
     if st.button("Submit Query"):
         if query.strip():
-            res = st.session_state.rag_pipeline.query(query)
+            pipeline = RAGSentimentPipeline(st.session_state.vector_manager)
+            res = pipeline.query(query)
             st.markdown(f"**Aggregate Context Sentiment:** `{res['aggregate_sentiment']}`")
             st.info(res['answer'])
             
